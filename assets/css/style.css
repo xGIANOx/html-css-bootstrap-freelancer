@@ -1,3 +1,29 @@
+/* debug */
+
+.debug .start_bootstrap{
+    background-color: #1abc9c;
+    
+}
+
+.debug .about{
+    background-color: #1abc9c;  
+}
+
+.debug .col{
+    height: 300px;
+    border: 1px dashed;
+}
+
+
+
+
+/* header */
+
+.my_bg_primary{
+
+    background-color: #1abc9c;
+}
+
 .my_bg_secondary{
     background-color: #2c3e50;
 }
