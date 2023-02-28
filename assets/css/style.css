@@ -1,7 +1,7 @@
 /* debug */
 
 .debug .col{
-    height: 300px;
+    
     border: 1px dashed;
 }
 
@@ -21,8 +21,33 @@
     background-color: #3a546d;
 }
 
+.max100{
+    max-width: 100%;
+}
+
+.color_white{
+    color: white;
+}
 /* header */
 
 .navbar-toggler-icon{
   filter: invert(0.7);  
+}
+
+/* start_bootstrap */
+
+.left_star,
+.right_star{
+    height: 5px;
+    width: 100px;
+    background-color: white;
+}
+
+
+/* responsive layout */
+
+@media screen and (max-width: 768px){
+    .start_bootstrap h3{
+        font-size: 1.25rem;
+    }
 }
