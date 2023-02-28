@@ -1,8 +1,3 @@
-/* debug */
-
-
-
-
 /* utilities */
 
 .my_bg_primary{
@@ -69,11 +64,18 @@
     background-color: black;
 }
 
+/* footer */
 
+.fa-brands{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem;
+}
 /* responsive layout */
 
 @media screen and (max-width: 768px){
     .start_bootstrap h3{
         font-size: 1.25rem;
     }
+    
 }
